@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project Derp-opolis</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+         <img src="assets/images/logo.png" alt="logo" class="logo">
+          <div class="container">
+              <nav>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="random.html">Random</a></li>
+                    </ul>
+               </nav>
+          </div>
+           
+       </header>
+        <center>
+            <h1 class="title">Resources</h1>
+        </center>
+        <div>
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FEmysQARWFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/roywYSEPSvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mFgltjfVV6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NiA6Mv8zkwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+        </div>
+        <div class="backpanel">
+            <ul>
+                <li>Here is a Unordered List with some elements (all links open in a new tab)</li>
+                <li>Background Credit: <a href="https://www.deviantart.com/tyvik/art/Crystal-Cavern-349529911" target="_blank">DeviantArt Link</a></li>
+                <li>A cool but unused image: <a href="https://www.deviantart.com/longjh/art/Crystal-Forest-399321850" target="_blank">DeviantArt Link</a></li>
+                <li>Logo Designer: <a href="https://cooltext.com/" target="_blank">Cooltext.com</a> </li>
+                <li>E4</li>
+                <li>E5</li>
+                <li>E6</li>
+                <li>E7</li>
+                <li>E8</li>
+            </ul>
+        <form>                                                                                          
+            <fieldset>
+                <label>Weather Checker:</label>
+                <fieldset>
+                    <p>
+                        <label>Zip Code:<input type="text" name="zipCode" id="zip" size="9"</label>
+                    </p>
+                    <p>
+                        <label>City:<input type="text" name="city" id="city" size="30"<label>
+                    </p>
+                    <p>
+                        <input type="submit" name="submit" id="getWeather">
+                    </p>
+                </fieldset>
+            </fieldset>
+        </form>
+    
+     
+        <table>                                                             
+            <caption>Weather Results</caption>
+            <tr>
+                <th>Description</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>Temperature:</td>
+                <td id="mainTemp">Console</td>
+            </tr>
+
+            <tr>
+                <td>Humidity:</td>
+                <td id="weatherHumidity">Console</td>
+            </tr>
+            <tr>
+                <td>Wind Speed:</td>
+                <td id="weatherSpeed">Console</td>
+            </tr>
+
+        </table>
+    <script src="scripts/weatherReport.js"></script>
+        </div>
+    </body>
+</html>
