@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project Derp-opolis</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+         <img src="assets/images/logo.png" alt="logo" class="logo">
+          <div class="container">
+              <nav>
+                    <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="resources.html">Resources</a></li>
+                   <li><a href="form.html">Form</a></li>
+                   <li><a href="random.html">Random</a></li>
+                    </ul>
+               </nav>
+          </div>
+           
+       </header>
+        <center>
+            <h1 class="title">Forms</h1>
+        </center>
+        <div class="backpanel">
+        <h3>Submit By GET</h3>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" target="_blank" method="get">
+            <div class="bordered-div">
+            Text Here: <input type="text" name="text_input"><br>
+            Number: <input type="number" name="numerical_input"><br>
+            Password: <input type="password" name="password_input"><br>
+            Fave Candy: <input type="text" name="fave_candy"><br>
+            <input type="submit" value="Submit"><br><br>
+            </div>
+        </form>
+        <h3>Submit By POST</h3>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" target="_blank" method="post">
+            <div class="bordered-div">
+            Text Here: <input type="text" name="text_input"><br>
+            Number: <input type="number" name="numerical_input"><br>
+            Password: <input type="password" name="password_input"><br>
+            Fave Candy: <input type="text" name="fave_candy"><br>
+            <input type="submit" value="Submit"><br><br>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

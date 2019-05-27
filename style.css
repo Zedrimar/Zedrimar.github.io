@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+.backpanel{
+    font-size: 20px;
+    background-color: rgba(208, 229, 204, .75);
+    border: inset;
+    border-width: 4px;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+}
+
+html {
+    background-image: url(assets/images/cave.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    background-color: floralwhite;
+    border: double;
+    border-width: 4px;
+    padding: 3px;
+    width: 25%;
+    opacity: 50%;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+    margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 12px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+.center {
+    text-align: center;
+    margin: 0;
+    padding right: 10px;
+    padding left: 10px;
+}
+
+.scrollbox {
+    
+    height:250px;
+    width:400px;
+    text-align: left;
+    padding: 15px;
+    border:2px solid black;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+}
+
+.bordered-div{
+    margin-top: -10px;
+    border: 1px double black;
+}
+
+
+.image-backpanel {
+    background-color: rgba(208, 229, 204, .75);
+    border: inset;
+    border-width: 4px;
+    width: 65%;
+    height: 85%;
+    margin: auto;
+}
