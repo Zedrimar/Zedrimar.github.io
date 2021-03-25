@@ -10,11 +10,11 @@ function bindButtons() {
         
         if(zip != 0)
 		{
-            payload = "http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us" + appID + '&units=imperial';
+            payload = "https://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us" + appID + '&units=imperial';
         }
         else
         {
-            payload = "http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us" + appID + '&units=imperial';
+            payload = "https://api.openweathermap.org/data/2.5/weather?q=" + city + ",us" + appID + '&units=imperial';
         }
 		req.open("GET", payload, true);
         
